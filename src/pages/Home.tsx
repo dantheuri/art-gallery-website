@@ -8,8 +8,8 @@ const home = () => {
 				<div className="w-[33.75rem] shrink-0 h-[50rem]">
 					<img src={headerImg} alt="" className="w-full h-full object-cover " />
 				</div>
-				<div>
-					<p>
+				<div className="absolute left-[57.81rem] top-[11.87rem] w-[21.875rem]">
+					<p className="text-[1.375rem]">
 						The arts in the collection of the Modern Art Gallery all started
 						from a spark of inspiration. Will these pieces inspire you? Visit us
 						and find out.
@@ -17,13 +17,13 @@ const home = () => {
 				</div>
 			</div>
 			<div></div>
-			<div className="absolute font-bigShouldersDisplay leading-[5.5rem] font-[600] uppercase w-[45.125rem] h-[11rem] text-white top-[11.81rem] left-[3.31rem] text-[5.6rem]">
+			<div className="absolute left- font-bigShouldersDisplay leading-[5.5rem] font-[600] uppercase w-[45.125rem] h-[11rem] text-white top-[11.81rem] left-[3.31rem] text-[5.6rem]">
 				<h1 className="">Modern</h1>
 				<h1>
 					Art Gal<span className="text-almost-black">lery</span>
 				</h1>
 			</div>
-			<div className="flex justify-center items-center first-line font-bigShouldersDisplay absolute bg-almost-black text-white left-[75.81rem] uppercase w-[12.75rem] h-[4.5rem] shrink-0 top-[25.88rem]">
+			<div className="flex justify-center items-center first-line font-bigShouldersDisplay absolute bg-almost-black text-white left-[57.81rem] uppercase w-[12.75rem] h-[4.5rem] shrink-0 top-[25.88rem]">
 				<span className="text-[1.25rem] font-[600]">Our location</span>
 			</div>
 			<div>Your day at the gallery</div>

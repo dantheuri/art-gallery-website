@@ -4,10 +4,12 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				"almost-black": "var(--almost-black)"
+				"almost-black": "var(--almost-black)",
+				"gold": "var(--gold)"
 			},
 			fontFamily: {
-				bigShouldersDisplay: ["BigShouldersDisplay", "sans-serif"],
+				bigShouldersDisplay: ['Big Shoulders Display'],
+				outfit: ['Outfit']
 			},
 		},
 	},

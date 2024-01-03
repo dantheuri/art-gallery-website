@@ -5,7 +5,7 @@ const home = () => {
 		<div>
 			<div className="flex relative">
 				<div className="bg-almost-black shrink-0 w-[28.125rem] h-[49.9375rem]"></div>
-				<div className="w-[50.75rem] shrink-0 h-[50rem]">
+				<div className="w-[33.75rem] shrink-0 h-[50rem]">
 					<img src={headerImg} alt="" className="w-full h-full object-cover " />
 				</div>
 				<div>

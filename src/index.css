@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root, 
+#root, 
+#docs-root {
+    --almost-black: #151515; 
+}

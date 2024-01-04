@@ -5,7 +5,8 @@ export default {
 		extend: {
 			colors: {
 				"almost-black": "var(--almost-black)",
-				"gold": "var(--gold)"
+				"gold": "var(--gold)",
+				"dark-grey": "var(--dark-grey)"
 			},
 			fontFamily: {
 				bigShouldersDisplay: ['Big Shoulders Display'],

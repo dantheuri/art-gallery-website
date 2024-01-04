@@ -10,7 +10,7 @@ const Header = () => {
 					<img src={headerImg} alt="" className="w-full h-full object-cover " />
 				</div>
 				<div className="absolute left-[57.81rem] top-[11.87rem] w-[21.875rem]">
-					<p className="text-[1.375rem] font-outfit text-[#444]">
+					<p className="text-[1.375rem] leading-[2rem] font-outfit text-dark-grey">
 						The arts in the collection of the Modern Art Gallery all started
 						from a spark of inspiration. Will these pieces inspire you? Visit us
 						and find out.

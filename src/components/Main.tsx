@@ -20,7 +20,7 @@ const Main = () => {
 				</div>
 			</div>
 
-			<div className="mt-[1.88rem] mb-[50rem] h-[45rem] flex gap-x-[1.88rem]">
+			<div className="mt-[1.88rem] h-[45rem] flex gap-x-[1.88rem]">
 				<div>
 					<img src={imageGrid2} alt="" className="h-[45rem] object-cover w-[39.6875rem]" />
 				</div>

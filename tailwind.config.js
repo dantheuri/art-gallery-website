@@ -9,8 +9,8 @@ export default {
 				"dark-grey": "var(--dark-grey)"
 			},
 			fontFamily: {
-				bigShouldersDisplay: ['Big Shoulders Display'],
-				outfit: ['Outfit']
+				bigShouldersDisplay: ['Big Shoulders Display', 'sans-serif'],
+				outfit: ['Outfit', 'sans-serif']
 			},
 		},
 	},

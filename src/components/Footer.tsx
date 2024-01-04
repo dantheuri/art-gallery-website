@@ -6,18 +6,17 @@ import twitterIcon from "../assets/icon-twitter.svg";
 const Footer = () => {
 	return (
 		<div className="mt-[11.25rem] flex pl-[10.31rem] pr-[10.25rem] py-[5rem] bg-almost-black h-[15.25rem]">
-			<div className=" ">
+			<div className="">
 				<img
 					src={logoLight}
 					alt=""
 					className="object-contain w-[3.97325rem] h-[3.625rem]"
 				/>
 			</div>
-			<div>
-				<p className="ml-[8.78rem] w-[26.875rem] text-white">
-					Modern Art Gallery The Modern Art Gallery is free to all visitors and
-					open seven days a week from 8am to 9pm. Find us at 99 King Street,
-					Newport, USA.
+			<div className="w-[26.875rem] ml-[8.78rem] ">
+				<p className="leading-[1.75rem] font-[300] text-[1.125rem] font-outfit text-white">
+					The Modern Art Gallery is free to all visitors and open seven days a
+					week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
 				</p>
 			</div>
 

@@ -20,11 +20,11 @@ const Main = () => {
 				</div>
 			</div>
 
-			<div className="mt-[11.25rem] mb-[50rem] h-[45rem] grid grid-cols-2 gap-x-[1.88rem]">
+			<div className="mt-[1.88rem] mb-[50rem] h-[45rem] flex gap-x-[1.88rem]">
 				<div>
-					<img src={imageGrid2} alt="" className="h-[45rem] w-[39.6875rem]" />
+					<img src={imageGrid2} alt="" className="h-[45rem] object-cover w-[39.6875rem]" />
 				</div>
-				<div className="w-[27.8125rem]">
+				<div className="">
 					<div className="h-[19.5625rem] ">
 						<img src={imageGrid3} alt="" />
 					</div>

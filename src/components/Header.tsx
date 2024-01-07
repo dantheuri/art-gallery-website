@@ -1,38 +1,33 @@
-import headerImg from "../assets/desktop/image-hero@2x.jpg";
+import headerImg from "../assets/mobile/image-hero.jpg";
 import arrowRight from "../assets/icon-arrow-right.svg";
 
 const Header = () => {
 	return (
-		<div>
-			<div className="flex relative">
-				<div className="bg-almost-black shrink-0 w-[28.125rem] h-[49.9375rem]"></div>
-				<div className="w-[33.75rem] shrink-0 h-[50rem]">
-					<img src={headerImg} alt="" className="w-full h-full object-cover " />
-				</div>
-				<div className="absolute left-[57.81rem] top-[11.87rem] w-[21.875rem]">
-					<p className="text-[1.375rem] leading-[2rem] font-outfit text-dark-grey">
-						The arts in the collection of the Modern Art Gallery all started
-						from a spark of inspiration. Will these pieces inspire you? Visit us
-						and find out.
-					</p>
-				</div>
+		<div className="header flex-cols  relative">
+			<div className="bg-almost-black shrink-0  hidden"></div>
+			<div className="w-[23.4375rem] shrink-0 h-[15rem]">
+				<img src={headerImg} alt="" className="w-full h-full object-cover " />
 			</div>
-			<div></div>
-			<div className="absolute left-[10.31rem] font-bigShouldersDisplay leading-[5.5rem] font-[900] uppercase w-[45.125rem] h-[11rem] text-white top-[11.81rem] text-[6rem]">
-				<h1 className="">Modern</h1>
-				<h1>
-					Art Gal<span className="text-almost-black">lery</span>
-				</h1>
+			<div className="font-bigShouldersDisplay px-[1rem] leading-[3.4375rem] font-[900] uppercase w-[21.4375rem] mt-[2rem] text-almost-black text-[3.75rem]">
+				<h1 className="">Modern Art Gallery</h1>
 			</div>
-
-			<span className="flex absolute left-[57.81rem] top-[25.88rem] justify-center items-center first-line font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
-				<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">
-					Our location
+			<div className=" px-[1rem] w-[21.875rem] mt-[2rem]">
+				<p className="text-[1.375rem] leading-[2rem] font-outfit text-dark-grey">
+					The arts in the collection of the Modern Art Gallery all started from
+					a spark of inspiration. Will these pieces inspire you? Visit us and
+					find out.
 				</p>
-			</span>
-			<span className="bg-gold flex justify-center items-center absolute left-[70.56rem] top-[25.88rem] w-[3.5rem] h-[4.5rem]">
-				<img src={arrowRight} alt="" />
-			</span>
+			</div>
+			<div className="locationButton px-[1rem] flex">
+				<span className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
+					<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">
+						Our location
+					</p>
+				</span>
+				<span className="bg-gold flex justify-center items-center w-[3.5rem] h-[4.5rem]">
+					<img src={arrowRight} alt="" />
+				</span>
+			</div>
 		</div>
 	);
 };

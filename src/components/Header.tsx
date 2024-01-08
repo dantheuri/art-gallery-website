@@ -3,8 +3,8 @@ import arrowRight from "../assets/icon-arrow-right.svg";
 
 const Header = () => {
 	return (
-		<div className="header flex-cols  relative">
-			<div className="bg-almost-black shrink-0  hidden"></div>
+		<div className="header flex-cols relative">
+			<div className="bg-almost-black shrink-0 hidden lg:block"></div>
 			<div className="w-[23.4375rem] shrink-0 h-[15rem]">
 				<img src={headerImg} alt="" className="w-full h-full object-cover " />
 			</div>
@@ -18,7 +18,7 @@ const Header = () => {
 					find out.
 				</p>
 			</div>
-			<div className="locationButton px-[1rem] flex">
+			<div className="locationButton px-[1rem] mt-[2rem] flex">
 				<span className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
 					<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">
 						Our location

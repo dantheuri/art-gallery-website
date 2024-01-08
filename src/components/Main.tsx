@@ -10,7 +10,7 @@ const Main = () => {
 					<div className="flex justify-center imageContainer ">
 						<img src={mobileImageGrid1} alt="w-[39.6875rem] h-[25rem]" />
 					</div>
-					<h2 className="font-bigShouldersDisplay w-[21.875rem] text-[3.75rem] font-[900] leading-[3.75rem] uppercase">
+					<h2 className="font-bigShouldersDisplay w-[21.875rem] text-[3.75rem] mt-[1.56rem] font-[900] leading-[3.75rem] uppercase">
 						Your day at the gallery
 					</h2>
 					<p className="mt-[2rem] text-dark-grey w-[21.875rem] text-[1.375rem] leading-[2rem] font-outfit">

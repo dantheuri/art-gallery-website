@@ -3,9 +3,9 @@ import arrowRight from "../assets/icon-arrow-right.svg";
 
 const Header = () => {
 	return (
-		<div className="header flex-cols relative">
+		<header className="header flex-cols relative">
 			<div className="bg-almost-black shrink-0 hidden lg:block"></div>
-			<div className="w-[23.4375rem] shrink-0 h-[15rem]">
+			<div className="w-full shrink-0">
 				<img src={headerImg} alt="" className="w-full h-full object-cover " />
 			</div>
 			<div className="font-bigShouldersDisplay px-[1rem] leading-[3.4375rem] font-[900] uppercase w-[21.4375rem] mt-[2rem] text-almost-black text-[3.75rem]">
@@ -28,7 +28,7 @@ const Header = () => {
 					<img src={arrowRight} alt="" />
 				</span>
 			</div>
-		</div>
+		</header>
 	);
 };
 

@@ -4,8 +4,8 @@ import mobileImageGrid3 from '../assets/mobile/image-grid-3.jpg'
 
 const Main = () => {
   return (
-		<div className="mt-[7.5rem] w-[50rem] justify-center">
-			<div className="">
+		<main className="mt-[7.5rem] w-[50rem] justify-center">
+			<section className="section-grid-1">
 				<div className="grid grid-cols-1 justify-items-center">
 					<div className="flex justify-center imageContainer ">
 						<img src={mobileImageGrid1} alt="w-[39.6875rem] h-[25rem]" />
@@ -18,9 +18,9 @@ const Main = () => {
 						our artists. Dive into the details of their creative process.
 					</p>
 				</div>
-			</div>
+			</section>
 
-			<div className="mt-[1.88rem] grid grid-cols-1 justify-items-center">
+			<section className="section-grid-2 mt-[1.88rem] grid grid-cols-1 justify-items-center">
 				<div>
 					<img
 						src={mobileImageGrid2}
@@ -42,8 +42,8 @@ const Main = () => {
 						</p>
 					</div>
 				</div>
-			</div>
-		</div>
+			</section>
+		</main>
 	);
 }
 

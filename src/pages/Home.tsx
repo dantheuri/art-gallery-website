@@ -6,7 +6,7 @@ import Main from "../components/Main";
 
 const home = () => {
   return (
-		<div className="home grid grid-cols-1 justify-items-center">
+		<div className="home lg:justify-items-start grid grid-cols-1 justify-items-center">
 			<Header /> 
 			<Main /> 
 			<Footer /> 

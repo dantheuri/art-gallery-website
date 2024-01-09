@@ -31,8 +31,8 @@ const Header = () => {
 				</picture>
 			</div>
 			<div className="font-bigShouldersDisplay lg:absolute lg:left-[10.31rem] lg:mt-[11.87rem] lg:text-white lg:w-[32.125rem] lg:text-[6rem] lg:leading-[5.5rem] px-[1rem] leading-[3.4375rem] font-[900] uppercase w-[21.4375rem] mt-[2rem] text-almost-black text-[3.75rem]">
-				<h1 className="">Modern</h1>
-				<h1>Art Gallery</h1>
+				<h1 className="mix-blend-difference">Modern</h1>
+				<h1 className="mix-blend-difference">Art Gallery</h1>
 			</div>
 			<div className=" px-[1rem] w-[21.875rem] mt-[2rem]">
 				<p className="text-[1.375rem] lg:absolute lg:left-[57.81rem] lg:top-[11.87rem] leading-[2rem] font-outfit text-dark-grey">

@@ -33,18 +33,17 @@ const HomeHeader = () => {
 					/>
 				</picture>
 			</div>
-			<div className="font-bigShouldersDisplay lg:absolute lg:left-[10.31rem] lg:mt-[11.87rem] lg:text-white lg:w-[32.125rem] lg:text-[6rem] lg:leading-[5.5rem] px-[1rem] leading-[3.4375rem] font-[900] uppercase w-[21.4375rem] mt-[2rem] text-almost-black text-[3.75rem]">
-				<h1 className="mix-blend-difference">Modern</h1>
-				<h1 className="mix-blend-difference">Art Gallery</h1>
+			<div className="font-bigShouldersDisplay lg:absolute lg:ml-[10.31rem] lg:mt-[11.87rem] lg:text-white lg:w-[28.125rem] text-[3.75rem] lg:text-[6rem] leading-[3.4375rem] lg:leading-[5.5rem] px-[1rem] lg:px-0 font-[900] uppercase w-[21.4375rem] mt-[2rem] text-almost-black ">
+				<h1 className="mix-blend-difference">Modern Art Gallery</h1>
 			</div>
-			<div className=" px-[1rem] w-[21.875rem] mt-[2rem]">
+			<div className="px-[1rem] w-[21.875rem] mt-[2rem]">
 				<p className="text-[1.375rem] lg:absolute lg:left-[57.81rem] lg:top-[11.87rem] leading-[2rem] font-outfit text-dark-grey">
 					The arts in the collection of the Modern Art Gallery all started from
 					a spark of inspiration. Will these pieces inspire you? Visit us and
 					find out.
 				</p>
 			</div>
-			<Link to={'/location'}>
+			<Link to={"/location"}>
 				<button className="locationButton lg:absolute lg:left-[57.81rem] lg:top-[25.88rem] px-[1rem] mt-[2rem] flex">
 					<div className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
 						<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">

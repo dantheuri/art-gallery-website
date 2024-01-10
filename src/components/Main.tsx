@@ -65,8 +65,13 @@ const Main = () => {
 						</p>
 					</div>
 				</div>
+<<<<<<< HEAD
 			</div>
 		</div>
+=======
+			</section>
+		</main>
+>>>>>>> 185d7bced7d76ddc1415861184cf397b882662a6
 	);
 };
 

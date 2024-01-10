@@ -1,15 +1,15 @@
-import Footer from "../components/home/HomeFooter";
-import Header from "../components/home/HomeHeader";
-import Main from "../components/home/HomeMain";
+import HomeFooter from "../components/home/HomeFooter";
+import HomeHeader from "../components/home/HomeHeader";
+import HomeMain from "../components/home/HomeMain";
 
 
 
 const home = () => {
   return (
 		<div className="home lg:justify-items-start grid grid-cols-1 justify-items-center">
-			<Header /> 
-			<Main /> 
-			<Footer /> 
+			<HomeHeader /> 
+			<HomeMain /> 
+			<HomeFooter /> 
 		</div>
 	);
 }

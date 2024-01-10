@@ -4,7 +4,7 @@ import desktopHeaderImg from "../../assets/desktop/image-hero.jpg";
 
 import grid2Image from '../../assets/desktop/image-grid-2.jpg'
 import arrowRight from "../../assets/icon-arrow-right.svg";
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -44,16 +44,18 @@ const HomeHeader = () => {
 					find out.
 				</p>
 			</div>
-			<button className="locationButton lg:absolute lg:left-[57.81rem] lg:top-[25.88rem] px-[1rem] mt-[2rem] flex">
-				<div className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
-					<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">
-						Our location
-					</p>
-				</div>
-				<div className="bg-gold flex justify-center items-center w-[3.5rem] h-[4.5rem]">
-					<img src={arrowRight} alt="" />
-				</div>
-			</button>
+			<Link to={'/location'}>
+				<button className="locationButton lg:absolute lg:left-[57.81rem] lg:top-[25.88rem] px-[1rem] mt-[2rem] flex">
+					<div className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
+						<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">
+							Our location
+						</p>
+					</div>
+					<div className="bg-gold flex justify-center items-center w-[3.5rem] h-[4.5rem]">
+						<img src={arrowRight} alt="" />
+					</div>
+				</button>
+			</Link>
 		</header>
 	);
 };

@@ -4,7 +4,7 @@ import imageGrid3 from '../assets/desktop/image-grid-3.jpg'
 
 const Main = () => {
   return (
-		<div className="mt-[11.25rem] pl-[10.31rem] pr-[10.25rem]">
+		<main className="mt-[11.25rem] pl-[10.31rem] pr-[10.25rem]">
 			<div className="flex gap-[7.81rem]">
 				<div className="flex-col justify-iems-center">
 					<h2 className="font-bigShouldersDisplay mt-[3.75rem] w-[21.875rem] text-[3.75rem] font-[900] leading-[3.75rem] uppercase">
@@ -39,7 +39,7 @@ const Main = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 	);
 }
 

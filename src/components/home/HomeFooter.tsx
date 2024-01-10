@@ -1,9 +1,9 @@
-import logoLight from "../assets/logo-light.svg";
-import facebookIcon from "../assets/icon-facebook.svg";
-import instagramIcon from "../assets/icon-instagram.svg";
-import twitterIcon from "../assets/icon-twitter.svg";
+import logoLight from "../../assets/logo-light.svg";
+import facebookIcon from "../../assets/icon-facebook.svg";
+import instagramIcon from "../../assets/icon-instagram.svg";
+import twitterIcon from "../../assets/icon-twitter.svg";
 
-const Footer = () => {
+const HomeFooter = () => {
 	return (
 		<footer className="footer w-full mt-[7.5rem] grid grid-cols-1 lg:flex gap-y-[2.38rem] px-[2rem] lg:px-[10.31rem] py-[3rem] bg-almost-black">
 			<img
@@ -28,4 +28,4 @@ const Footer = () => {
 	);
 };
 
-export default Footer;
+export default HomeFooter;

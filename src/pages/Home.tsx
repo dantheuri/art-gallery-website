@@ -1,6 +1,6 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Main from "../components/Main";
+import Footer from "../components/home/HomeFooter";
+import Header from "../components/home/HomeHeader";
+import Main from "../components/home/HomeMain";
 
 
 

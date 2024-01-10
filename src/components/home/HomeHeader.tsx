@@ -1,13 +1,16 @@
-import mobileHeaderImg from "../assets/mobile/image-hero.jpg";
-import tabletHeaderImg from '../assets/tablet/image-hero.jpg'
-import desktopHeaderImg from "../assets/desktop/image-hero.jpg";
+import mobileHeaderImg from "../../assets/mobile/image-hero.jpg";
+import tabletHeaderImg from '../../assets/tablet/image-hero.jpg'
+import desktopHeaderImg from "../../assets/desktop/image-hero.jpg";
 
-import grid2Image from '../assets/desktop/image-grid-2.jpg'
-import arrowRight from "../assets/icon-arrow-right.svg";
+import grid2Image from '../../assets/desktop/image-grid-2.jpg'
+import arrowRight from "../../assets/icon-arrow-right.svg";
 
 
 
-const Header = () => {
+
+const HomeHeader = () => {
+
+
 	return (
 		<header className="header lg:flex flex-cols relative">
 			<div className="bg-almost-black shrink-0 hidden lg:w-[28.125rem] lg:h-[49.9375rem] lg:block"></div>
@@ -41,18 +44,18 @@ const Header = () => {
 					find out.
 				</p>
 			</div>
-			<div className="locationButton lg:absolute lg:left-[57.81rem] lg:top-[25.88rem] px-[1rem] mt-[2rem] flex">
-				<span className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
+			<button className="locationButton lg:absolute lg:left-[57.81rem] lg:top-[25.88rem] px-[1rem] mt-[2rem] flex">
+				<div className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
 					<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">
 						Our location
 					</p>
-				</span>
-				<span className="bg-gold flex justify-center items-center w-[3.5rem] h-[4.5rem]">
+				</div>
+				<div className="bg-gold flex justify-center items-center w-[3.5rem] h-[4.5rem]">
 					<img src={arrowRight} alt="" />
-				</span>
-			</div>
+				</div>
+			</button>
 		</header>
 	);
 };
 
-export default Header;
+export default HomeHeader;

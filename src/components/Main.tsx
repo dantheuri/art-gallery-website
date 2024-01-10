@@ -65,8 +65,8 @@ const Main = () => {
 						</p>
 					</div>
 				</div>
-			</section>
-		</main>
+			</div>
+		</div>
 	);
 };
 

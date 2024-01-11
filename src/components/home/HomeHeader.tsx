@@ -44,13 +44,13 @@ const HomeHeader = () => {
 				</p>
 			</div>
 			<Link to={"/location"}>
-				<button className="locationButton lg:absolute lg:left-[57.81rem] lg:top-[25.88rem] px-[1rem] mt-[2rem] flex">
-					<div className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white  uppercase w-[12.75rem] h-[4.5rem] shrink-0 ">
+				<button className="locationButton lg:absolute lg:left-[57.81rem] lg:top-[25.88rem] px-[1rem] mt-[2rem] flex group">
+					<div className="flex justify-center items-center font-bigShouldersDisplay bg-almost-black text-white uppercase w-[12.75rem] h-[4.5rem] shrink-0 group-hover:bg-gold transition duration-300 ease-in-out">
 						<p className="text-[1.25rem] tracking-[0.22725rem] font-[800]">
 							Our location
 						</p>
 					</div>
-					<div className="bg-gold flex justify-center items-center w-[3.5rem] h-[4.5rem]">
+					<div className="bg-gold flex justify-center items-center w-[3.5rem] h-[4.5rem] group-hover:bg-almost-black group-hover:text-white transition duration-300 ease-in-out">
 						<img src={arrowRight} alt="" />
 					</div>
 				</button>

@@ -13,7 +13,7 @@ const HomeFooter = () => {
 			/>
 
 			<div className="footer-text-container lg:ml-[8.78rem] ">
-				<p className="leading-[1.625rem] lg:w-[26.875rem] font-[300] text-[1rem] font-outfit text-white">
+				<p className="leading-[1.625rem] lg:leading-[1.75rem] lg:w-[26.875rem] font-[300] text-[1rem] lg:text-[1.125rem] font-outfit text-white">
 					The Modern Art Gallery is free to all visitors and open seven days a
 					week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
 				</p>

@@ -59,7 +59,7 @@ const HomeMain = () => {
 						<h2 className="font-[900] font-bigShouldersDisplay leading-[3.75rem] text-[3.75rem] uppercase">
 							Come & Be Inspired
 						</h2>
-						<p className="mt-[1.5rem] font-outfit text-[1.375rem] font-[300] leading-[2rem]">
+						<p className="mt-[1.5rem] lg:mt-[2rem] font-outfit text-[1.375rem] font-[300] leading-[2rem]">
 							We’re excited to welcome you to our gallery and see how our
 							collections influence you.
 						</p>

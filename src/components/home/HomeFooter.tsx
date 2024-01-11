@@ -5,7 +5,7 @@ import twitterIcon from "../../assets/icon-twitter.svg";
 
 const HomeFooter = () => {
 	return (
-		<footer className="footer w-full mt-[7.5rem] grid grid-cols-1 lg:flex gap-y-[2.38rem] px-[2rem] lg:px-[10.31rem] py-[3rem] lg:py-[5rem] bg-almost-black">
+		<footer className="footer w-full mt-[7.5rem] lg:mt-[11.5rem] grid grid-cols-1 lg:flex gap-y-[2.38rem] px-[2rem] lg:px-[10.31rem] py-[3rem] lg:py-[5rem] bg-almost-black">
 			<img
 				src={logoLight}
 				alt=""

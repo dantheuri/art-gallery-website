@@ -37,7 +37,7 @@ const HomeHeader = () => {
 				<h1 className="mix-blend-difference">Modern Art Gallery</h1>
 			</div>
 			<div className="px-[1rem] w-[21.875rem] mt-[2rem]">
-				<p className="text-[1.375rem] lg:absolute lg:left-[57.81rem] lg:top-[11.87rem] leading-[2rem] font-outfit text-dark-grey">
+				<p className="text-[1.375rem] lg:absolute lg:left-[57.81rem] lg:top-[11.87rem] lg:w-[21.875rem] leading-[2rem] font-outfit text-dark-grey">
 					The arts in the collection of the Modern Art Gallery all started from
 					a spark of inspiration. Will these pieces inspire you? Visit us and
 					find out.

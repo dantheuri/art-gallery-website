@@ -7,7 +7,7 @@ import desktopImageGrid3 from "../../assets/desktop/image-grid-3.jpg";
 
 const HomeMain = () => {
   return (
-    <main className="mt-[7.5rem] lg:mt-[11.25rem] px-2 sm:px-4 lg:px-10">
+    <main className="mt-[7.5rem] lg:mt-[11.25rem] px-2 sm:px-4 lg:px-0">
       <section className="section-grid-1">
         <div className="grid grid-cols-1 lg:grid-cols-[21.875rem,39.6875rem] lg:gap-x-[7.81rem] lg:justify-center">
           <picture>

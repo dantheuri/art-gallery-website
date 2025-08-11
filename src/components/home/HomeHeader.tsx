@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const HomeHeader = () => {
   return (
-    <header className="header relative px-2 sm:px-4 lg:px-10">
-      <div className="lg:grid lg:grid-cols-[28.125rem,33.75rem,28.125rem] lg:gap-0">
-        <div className="bg-almost-black shrink-0 hidden lg:w-[28.125rem] lg:h-[49.9375rem] lg:block"></div>
+    <header className="header relative px-2 sm:px-0">
+      <div className="lg:grid lg:grid-cols-[28rem,35rem]">
+        <div className="bg-almost-black shrink-0 hidden lg:w-full lg:h-[49.9375rem] lg:block"></div>
         <div className="header-image-container lg:relative">
           <picture>
             <source media="(max-width:480px)" srcSet={mobileHeaderImg} />
@@ -26,14 +26,14 @@ const HomeHeader = () => {
             <img
               src={grid2Image}
               alt=""
-              className="w-full lg:w-[33.75rem] shrink-0 lg:h-[50rem] h-auto object-cover"
+              className="w-full lg:w-full shrink-0 lg:h-[50rem] h-auto object-cover"
             />
           </picture>
         </div>
-        <div className="lg:relative lg:pl-10 lg:pt-[11.87rem]">
-          <h1 className="font-bigShouldersDisplay lg:text-white lg:text-[6rem] lg:leading-[5.5rem] text-[2.5rem] sm:text-[3.125rem] leading-[2.25rem] sm:leading-[3.4375rem] font-[900] uppercase w-full lg:w-[28.125rem] mt-[2rem] lg:mt-0 text-almost-black lg:text-white">
-            Modern Art Gallery
-          </h1>
+        <h1 className="absolute lg:ml-[10.31rem] lg:mt-[11.87rem] mix-blend-difference font-bigShouldersDisplay lg:text-white lg:text-[6rem] lg:leading-[5.5rem] text-[2.5rem] sm:text-[3.125rem] leading-[2.25rem] sm:leading-[3.4375rem] font-[900] uppercase w-full lg:w-[28.125rem] mt-[2rem] lg:mt-0 text-almost-black lg:text-white">
+          Modern Art Gallery
+        </h1>
+        <div className="absolute lg:ml-[58.5rem] lg:pt-[11.87rem]">
           <p className="text-[1.125rem] sm:text-[1.375rem] lg:w-[21.875rem] lg:mt-[2rem] leading-[1.75rem] sm:leading-[2rem] font-outfit text-dark-grey w-full mt-[2rem]">
             The arts in the collection of the Modern Art Gallery all started
             from a spark of inspiration. Will these pieces inspire you? Visit us

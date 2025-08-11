@@ -5,10 +5,9 @@ import HomeMain from "../components/home/HomeMain";
 const home = () => {
   return (
     <div className="home min-h-screen">
-      <div className="max-w-[1440px] mx-auto">
-        <HomeHeader />
-        <HomeMain />
-      </div>
+      <HomeHeader />
+      <HomeMain />
+
       <HomeFooter />
     </div>
   );

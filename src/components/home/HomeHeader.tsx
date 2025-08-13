@@ -3,7 +3,6 @@ import tabletHeaderImg from "../../assets/tablet/image-hero.jpg";
 import desktopHeaderImg from "../../assets/desktop/image-hero.jpg";
 import desktopHeaderImg2x from "../../assets/desktop/image-hero@2x.jpg";
 
-import grid2Image from "../../assets/desktop/image-grid-2.jpg";
 
 import arrowRight from "../../assets/icon-arrow-right.svg";
 import { Link } from "react-router-dom";

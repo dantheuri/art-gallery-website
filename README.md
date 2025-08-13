@@ -11,9 +11,6 @@ A modern, responsive art gallery website built with React, TypeScript, and Tailw
 
 - Responsive design for all devices
 - Multi-page navigation with React Router
-- Interactive elements and smooth transitions
-- TypeScript for type safety
-- Built with Vite for performance
 
 ## 🛠️ Tech Stack
 

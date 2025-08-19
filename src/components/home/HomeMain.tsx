@@ -22,12 +22,15 @@ const HomeMain = () => {
         <div className="grid grid-cols-1 sm:flex lg:max-w-[70rem] xl:max-w-[80rem] sm:gap-[4rem] lg:gap-[4rem] lg:items-start">
           <picture>
             <source media="(max-width: 767px)" srcSet={mobileImageGrid1} />
-			<source
+            <source
               media="(min-width: 768px) and (max-width: 1024px)"
               srcSet={tabletImageGrid1}
             />
-            <source media="(min-width: 1024px) and (max-width: 1280px)" srcSet={desktopImageGrid1} />
-			<source media="(min-width: 1280px)" srcSet={desktopImageGrid12x} />
+            <source
+              media="(min-width: 1024px) and (max-width: 1280px)"
+              srcSet={desktopImageGrid1}
+            />
+            <source media="(min-width: 1280px)" srcSet={desktopImageGrid12x} />
             <img
               src={mobileImageGrid1}
               alt=""
@@ -69,9 +72,15 @@ const HomeMain = () => {
       <section className="section-grid-2 lg:mt-[2rem] mt-[2rem] xl:max-w-[80rem] grid grid-cols-1 sm:flex sm:gap-[1rem] lg:gap-[2rem]">
         <picture>
           <source media="(max-width: 767px)" srcSet={mobileImageGrid2} />
-		  <source media="(min-width: 768px) and (max-width: 1023px)" srcSet={tabletImageGrid2} />
-          <source media="(min-width: 1024px) and (max-width: 1280px)" srcSet={desktopImageGrid2} />
-		  <source media="(min-width: 1280px)" srcSet={desktopImageGrid22x} />
+          <source
+            media="(min-width: 768px) and (max-width: 1023px)"
+            srcSet={tabletImageGrid2}
+          />
+          <source
+            media="(min-width: 1024px) and (max-width: 1280px)"
+            srcSet={desktopImageGrid2}
+          />
+          <source media="(min-width: 1280px)" srcSet={desktopImageGrid22x} />
 
           <img
             src={mobileImageGrid2}
@@ -80,12 +89,18 @@ const HomeMain = () => {
           />
         </picture>
 
-        <div className="lg:mt-0 flex flex-col lg:gap-[1rem]">
+        <div className="mt-8 md:mt-0 flex flex-col lg:gap-[1rem]">
           <picture>
             <source media="(max-width: 767px)" srcSet={mobileImageGrid3} />
-			<source media="(min-width: 768px) and (max-width: 1023px)" srcSet={tabletImageGrid3} />
-            <source media="(min-width: 1024px) and (max-width: 1280px)" srcSet={desktopImageGrid3} />
-			<source media="(min-width: 1280px)" srcSet={desktopImageGrid32x} />
+            <source
+              media="(min-width: 768px) and (max-width: 1023px)"
+              srcSet={tabletImageGrid3}
+            />
+            <source
+              media="(min-width: 1024px) and (max-width: 1280px)"
+              srcSet={desktopImageGrid3}
+            />
+            <source media="(min-width: 1280px)" srcSet={desktopImageGrid32x} />
             <img
               src={mobileImageGrid3}
               alt=""
